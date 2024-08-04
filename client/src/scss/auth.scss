@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(34, 34, 34);
+  color: #fff;
+}
+
+.form__auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  &__title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 1rem;
+  }
+
+  &__label {
+    color: #c2c2c2;
+    width: fit-content;
+  }
+
+  &__wrapper-input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+  }
+
+  &__input {
+    padding: 15px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+  &__button {
+    padding: 15px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #000;
+    border: 1px solid #fff;
+    margin-top: 1rem;
+    transition: .2s all;
+
+    &:hover {
+      color: #000;
+      background-color: #fff;
+    }
+  }
+}
